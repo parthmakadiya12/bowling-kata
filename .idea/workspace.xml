@@ -14,13 +14,13 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bowling/game/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bowling/game/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/Game.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/bowling/Game.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/bowling/game/GameTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/bowling/game/GameTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.bowling.game.GameTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.bowling.game.GameTest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.bowling.game.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.bowling.game.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.bowling.game.GameTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.bowling.game.GameTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bowling/game/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bowling/game/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/bowling/game/GameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bowling/game/GameTest.java" afterDir="false" />
@@ -97,7 +97,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.GameTest">
+  <component name="RunManager" selected="Gradle.GameTest.canScorePerfectGame">
     <configuration name="GameTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -138,12 +138,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="GameTest.canScoreGutterGame" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="GameTest.canScorePerfectGame" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.bowling.game.GameTest.canScoreGutterGame&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.bowling.game.GameTest.canScorePerfectGame&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -178,12 +178,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="GameTest.shouldCreateGame" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="GameTest.canScoreStrikeBalls" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.bowling.game.GameTest.shouldCreateGame&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.bowling.game.GameTest.canScoreStrikeBalls&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -200,11 +200,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.GameTest.canScorePerfectGame" />
+        <item itemvalue="Gradle.GameTest.canScoreStrikeBalls" />
         <item itemvalue="Gradle.GameTest" />
         <item itemvalue="Gradle.GameTest.canScoreAllOne" />
         <item itemvalue="Gradle.GameTest.canScoreSpareBalls" />
-        <item itemvalue="Gradle.GameTest.canScoreGutterGame" />
-        <item itemvalue="Gradle.GameTest.shouldCreateGame" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +218,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591530129610</updated>
-      <workItem from="1591530134465" duration="3511000" />
+      <workItem from="1591530134465" duration="3911000" />
     </task>
     <servers />
   </component>

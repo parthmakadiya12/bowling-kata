@@ -10,7 +10,10 @@ public class Game {
         for (int frame = 0; frame < 10; frame++) {
             if (isSpareBall(current)) {
                 score += 10 + rolls[current + 2];
-                current+=2;
+                current += 2;
+            } else if (isStrikeBall(current)) {
+                score += 10 + rolls[current + 1] + rolls[current + 2];
+                current++;
             } else {
                 score += rolls[current] + rolls[current + 1];
                 current += 2;
@@ -28,4 +31,9 @@ public class Game {
     private boolean isSpareBall(int current) {
         return rolls[current] + rolls[current + 1] == 10;
     }
+
+    private boolean isStrikeBall(int current) {
+        return rolls[current] == 10;
+    }
+
 }

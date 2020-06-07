@@ -1,6 +1,5 @@
 package com.bowling.game;
 
-import org.junit.Before;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -31,5 +30,17 @@ class GameTest {
     public void canScoreSpareBalls() {
         game.roll(5, 5, 3, 0, 0, 0, 0, 0, 0, 0);
         assertEquals(16, game.score());
+    }
+
+    @Test
+    public void canScoreStrikeBalls() {
+        game.roll(10, 4, 4, 0, 0, 0, 0, 0, 0, 0);
+        assertEquals(26, game.score());
+    }
+
+    @Test
+    public void canScorePerfectGame() {
+        game.roll(10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10);
+        assertEquals(300, game.score());
     }
 }
