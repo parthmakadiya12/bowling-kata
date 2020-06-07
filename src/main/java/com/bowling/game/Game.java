@@ -6,8 +6,15 @@ public class Game {
 
     public int score() {
         int score = 0;
-        for (int i = 0; i < rolls.length; i++) {
-            score += rolls[i];
+        int current = 0;
+        for (int frame = 0; frame < 10; frame++) {
+            if (isSpareBall(current)) {
+                score += 10 + rolls[current + 2];
+                current+=2;
+            } else {
+                score += rolls[current] + rolls[current + 1];
+                current += 2;
+            }
         }
         return score;
     }
@@ -16,5 +23,9 @@ public class Game {
         for (int i = 0; i < pinsDown.length; i++) {
             rolls[i] = pinsDown[i];
         }
+    }
+
+    private boolean isSpareBall(int current) {
+        return rolls[current] + rolls[current + 1] == 10;
     }
 }
